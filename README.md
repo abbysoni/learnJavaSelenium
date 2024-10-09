@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the Tutorial repo of Selenium with Java. Here is a guideline to help you get started to write/Learn Java code in Visual Studio Code for automation testing.
 
 ## Folder Structure
 
@@ -16,3 +16,26 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+## Imp git commands
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abbysoni/learnJavaSelenium.git
+git push -u origin main
+
+## Branch Management
+main   : Mapped with remote repo should be copy of master
+
+dev : Take pull for every day branch from it
+
+make one branch each day and commit EOD to it and then merge it
+git branch "Day1"
+git push -u origin main
+
+
+## Commit Management
+
+
