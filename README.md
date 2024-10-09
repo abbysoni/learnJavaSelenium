@@ -19,21 +19,24 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 
 ## Imp git commands
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/abbysoni/learnJavaSelenium.git
-git push -u origin main
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/abbysoni/learnJavaSelenium.git
+- git push -u origin main
 
 ## Branch Management
 main   : Mapped with remote repo should be copy of master
 
 dev : Take pull for every day branch from it
 
-make one branch each day and commit EOD to it and then merge it
-git branch "Day1"
-git push -u origin main
+make one branch each day and commit EOD to it and then merge it :
+- git branch "Day1"
+- git checkout Day1
+- git add .
+- git commit -m "first commit"
+- git push -u origin Day1
 
 
 ## Commit Management
